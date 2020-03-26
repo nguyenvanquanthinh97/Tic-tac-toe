@@ -1,0 +1,14 @@
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.board-game {
+  display: table;
+  margin: 0 auto;
+}
