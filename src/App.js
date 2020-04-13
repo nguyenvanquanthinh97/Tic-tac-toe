@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 
-import Board from './components/Board';
+import Game from './containers/Game';
 
 function App() {
   return (
     <div className="App">
-      <Board size={5} />
+      <Game size={5} />
     </div >
   );
 }
